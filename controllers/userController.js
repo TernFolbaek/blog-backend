@@ -17,8 +17,7 @@ exports.log_in = (req, res, next) => {
 };
 
 exports.sign_up = (req, res, next) => {
-  console.log(req.body.username);
-  console.log(req.body.password);
+
 
   const user = new User({
     username: req.body.username,
